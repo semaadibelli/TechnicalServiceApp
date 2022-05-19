@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+    <head>
+        <partial name ="Partials/_StylesMeta" />
+    </head>
+    @await RenderSectionAsync("Head",required:false)
+    <body>
+        <partial name="Partials/_Header"/>
+         <div class=" content-area">
+                    <div class="page-header">
+                        <h4 class="page-title">@ViewBag.Title</h4>
+                    </div>
+                    <div class=row>
+                        <div class="col-md-12">
+                            @RenderBody()
+                        </div>
+                    </div>
+
+                </div>
+        <partial name="Partials/_Footer"/>
+
+        <partial name = "Partials/_Scripts" />
+        @await RenderSectionAsync("Scripts",required: false)
+        
+        
+
+    
+
+</body>
+
+</html>
+
+
