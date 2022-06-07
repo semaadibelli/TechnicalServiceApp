@@ -7,11 +7,16 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\TechnicalService.Business\TechnicalService.Business.csproj" />
+		<ProjectReference Include="..\Selfy.Business\Selfy.Business.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="Components\" />
+		<Folder Include="ViewModels\Dashboard\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="wwwroot\index.html" />
 	</ItemGroup>
 
 	<ItemGroup>
