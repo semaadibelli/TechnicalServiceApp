@@ -7,12 +7,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\TechnicalService.Data\TechnicalService.Data.csproj" />
+		<ProjectReference Include="..\Selfy.Data\Selfy.Data.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="MappingProfiles\" />
-		<Folder Include="Services\" />
 		<Folder Include="Repositories\" />
 	</ItemGroup>
 
