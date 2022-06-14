@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Selfy.Data.Identity;
+using TechnicalService.Data.Identity;
 
-namespace Selfy.Data.EntityFramework
+namespace TechnicalService.Data.EntityFramework
 {
     public sealed class MyContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {

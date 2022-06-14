@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Selfy.Data.EntityFramework;
+using TechnicalService.Data.EntityFramework;
 
 #nullable disable
 
-namespace Selfy.Data.Migrations
+namespace TechnicalService.Data.Migrations
 {
     [DbContext(typeof(MyContext))]
     partial class MyContextModelSnapshot : ModelSnapshot

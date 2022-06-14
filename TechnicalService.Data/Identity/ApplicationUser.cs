@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Selfy.Data.Identity
+namespace TechnicalService.Data.Identity
 {
     public class ApplicationUser : IdentityUser
     {

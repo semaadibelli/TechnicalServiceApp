@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Selfy.Data.Migrations
+namespace TechnicalService.Data.Migrations
 {
     public partial class Init : Migration
     {
