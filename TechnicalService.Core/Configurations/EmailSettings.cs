@@ -1,4 +1,4 @@
-﻿namespace Selfy.Core.Configurations;
+﻿namespace TechnicalService.Core.Configurations;
 public class EmailSettings
 {
     public string SenderMail { get; set; }

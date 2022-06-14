@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Selfy.Core.Identity;
+namespace TechnicalService.Core.Identity;
 
 public static class Roles
 {

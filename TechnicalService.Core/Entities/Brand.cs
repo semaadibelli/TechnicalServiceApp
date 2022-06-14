@@ -1,6 +1,6 @@
-﻿using Selfy.Core.Entities.Abstracts;
+﻿using TechnicalService.Core.Entities.Abstracts;
 
-namespace Selfy.Core.Entities;
+namespace TechnicalService.Core.Entities;
 
 public class Brand : BaseEntity<int>
 {

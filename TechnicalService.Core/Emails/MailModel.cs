@@ -1,4 +1,4 @@
-﻿namespace Selfy.Core.Emails;
+﻿namespace TechnicalService.Core.Emails;
 public class MailModel
 {
     public List<EmailModel> To { get; set; } = new();

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Selfy.Core.Role
+namespace TechnicalService.Core.Role
 {
     public static class Role
     {

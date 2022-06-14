@@ -1,4 +1,4 @@
-﻿namespace Selfy.Core.Entities.Abstracts;
+﻿namespace TechnicalService.Core.Entities.Abstracts;
 
 public abstract class BaseEntity<T> where T : IEquatable<T>
 {

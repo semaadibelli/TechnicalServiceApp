@@ -1,4 +1,4 @@
-﻿namespace Selfy.Core.Emails;
+﻿namespace TechnicalService.Core.Emails;
 public class EmailModel
 {
     public string Adress { get; set; }
