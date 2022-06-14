@@ -7,7 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Selfy.Business\Selfy.Business.csproj" />
+		<ProjectReference Include="..\TechnicalService.Business\TechnicalService.Business.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
