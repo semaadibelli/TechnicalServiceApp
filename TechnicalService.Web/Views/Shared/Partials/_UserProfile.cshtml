@@ -1,0 +1,31 @@
+﻿@using TechnicalService.Core.Identity;
+@using Microsoft.AspNetCore.Http;
+@using TechnicalService.Data.Identity
+
+@{
+    var userString = Context.Session.GetString("User") ?? "";
+
+    var user = new ApplicationUser();
+    if (userString != "")
+    {
+        user = System.Text.Json.JsonSerializer.Deserialize<ApplicationUser>(userString);
+    }
+}
+
+
+<div class="user-profile">
+    <div class="dropdown user-pro-body">
+        <div class="mb-2">
+            @if (Context.User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Account" asp-action="Profile" class="" data-toggle="" aria-haspopup="true" aria-expanded="false"> <span class="font-weight-semibold">@user.Name @user.Surname</span> </a>
+
+            }
+            else
+            {
+                <a asp-controller="Account" asp-action="Login" class="" data-toggle="" aria-haspopup="true" aria-expanded="false"> <span class="font-weight-semibold">Please LogIn</span> </a>
+
+            }
+        </div>
+    </div>
+</div>
