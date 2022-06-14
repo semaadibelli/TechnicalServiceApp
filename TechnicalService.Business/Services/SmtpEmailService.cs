@@ -2,10 +2,10 @@
 using System.Net.Mail;
 using System.Text;
 using Microsoft.Extensions.Configuration;
-using Selfy.Core.Configurations;
-using Selfy.Core.Emails;
+using TechnicalService.Core.Configurations;
+using TechnicalService.Core.Emails;
 
-namespace Selfy.Business.Services
+namespace TechnicalService.Business.Services
 {
     public class SmtpEmailService : IEmailService
     {

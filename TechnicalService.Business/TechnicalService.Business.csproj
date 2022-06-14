@@ -7,16 +7,16 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Selfy.Data\Selfy.Data.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<Folder Include="MappingProfiles\" />
 		<Folder Include="Repositories\" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TechnicalService.Data\TechnicalService.Data.csproj" />
 	</ItemGroup>
 
 </Project>

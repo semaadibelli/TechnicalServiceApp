@@ -1,6 +1,6 @@
-﻿using Selfy.Core.Emails;
+﻿using TechnicalService.Core.Emails;
 
-namespace Selfy.Business.Services
+namespace TechnicalService.Business.Services
 {
     public interface IEmailService
     {
